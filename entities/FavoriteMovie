@@ -1,0 +1,34 @@
+{
+  "name": "FavoriteMovie",
+  "type": "object",
+  "properties": {
+    "tmdb_id": {
+      "type": "number",
+      "description": "ID do filme no TMDB"
+    },
+    "title": {
+      "type": "string",
+      "description": "T\u00edtulo do filme"
+    },
+    "poster_path": {
+      "type": "string",
+      "description": "Caminho do poster"
+    },
+    "vote_average": {
+      "type": "number",
+      "description": "Nota m\u00e9dia"
+    },
+    "release_date": {
+      "type": "string",
+      "description": "Data de lan\u00e7amento"
+    },
+    "overview": {
+      "type": "string",
+      "description": "Sinopse do filme"
+    }
+  },
+  "required": [
+    "tmdb_id",
+    "title"
+  ]
+}
